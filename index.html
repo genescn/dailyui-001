@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily UI - 001</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <i class="header-menu fas fa-bars fa-lg"></i>
+            <h1 class="header-title">#001 Daily UI</h1>
+            <i id="sign" class="header-sign fas fa-user fa-lg"></i>
+        </div>
+    </header>
+      
+    <div id="myModal" class="modal">
+        <section class="sign">
+            <div class="sign-content">
+                <h1 class="sign-content__title">Sign Up</h1>
+                <form class="sign-content__form">
+                    <label for="fname">Username</label>
+                    <input type="text" id="fname" name="fname">
+                    <label for="lname">E-mail</label>
+                    <input type="text" id="lname" name="lname">
+                    <label for="fpass">Password</label>
+                    <input type="password" id="fpass" name="fpass">
+                    <label for="fpass-again">Repeat password</label>
+                    <input type="password" id="fpass-again" name="fpass-again">
+                    <p class="sign-content__term">
+                        <input type="checkbox" name="fagree" value="ok"> By signing up I agree with <a href="#">terms and
+                            conditions</a>
+                        <p>
+                            <button class="button-sign">Sign Up</button>
+                            <span class="span-sign">or <a href="#">Log in</a></span>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
